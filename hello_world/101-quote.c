@@ -5,10 +5,6 @@
 
 #include <unistd.h>
 
-/**
-
-
- */
 int main(void)
 {
 	write(2,
@@ -17,3 +13,4 @@ int main(void)
 
 	return (1);
 }
+
