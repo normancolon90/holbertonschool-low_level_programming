@@ -1,3 +1,7 @@
+ /*
+ * File: 2-print_alphabet_x10.c
+ * Norman C
+ */
 #include main.h
 void print_alphabet_x10(void)
 {
@@ -8,7 +12,7 @@ void print_alphabet_x10(void)
 	{
 		while (alphabet < 123)
 		{
-			_putchar(alphabet);
+		    _putchar(alphabet);
 			alphabet++;
 		}
 	alphabet = 'a';
