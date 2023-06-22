@@ -12,9 +12,9 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		for (i = 1; i <= n; i++)
+		for (i = 1; i < n; i++)
 		{
-			for (spaces =i; spaces >0; spaces--)
+			for (spaces = 0; spaces < i; spaces++)
 			{
 				_putchar(' ');
 			}
@@ -25,3 +25,4 @@ void print_diagonal(int n)
 	else
 	_putchar('\n');
 }
+
