@@ -2,15 +2,20 @@
 #include "main.h"
 
 /**
-  *main - entry
-  *@argv : the string from the terminal
-  *@argc : the number of arameters
-  *Return: 0
-  */
-
-int main(int argc, char const *argv[])
+ * main - prints all arguments it receives
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
+ */
+int main(int argc, char *argv[])
 {
-(void)argv;
-printf("%d\n", argc - 1);
-return (0);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
+	return (0);
 }
